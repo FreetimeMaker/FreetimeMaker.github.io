@@ -23,6 +23,8 @@
   --geoweather-next-txt: rgba(0, 157, 255, 0.8);
   --dashboard-txt: rgba(255, 255, 0, 0.8);
   --fdroid-repo-txt: rgba(96, 255, 71, 0.8);
+  --blog-txt: rgba(0, 255, 0, 0.8);
+  --luma-store-txt: rgba(255, 0, 255, 0.8);
 }
 
 html.dark {
@@ -38,6 +40,8 @@ html.dark {
   --geoweather-next-txt: rgb(61 156 0 / 0.8);
   --dashboard-txt: rgba(255, 0, 255, 0.8);
   --fdroid-repo-txt: rgba(71, 255, 96, 0.8);
+  --blog-txt: rgba(0, 255, 255);
+  --luma-store-txt: rgba(0, 255, 0, 0.8);
 }
 
 /* Ladezustand vor Hydration: respektiere Systempräferenz, um Falsches Aufblitzen zu vermeiden */
@@ -55,6 +59,8 @@ html.dark {
     --geoweather-next-txt: rgb(61 156 0 / 0.8);
     --dashboard-txt: rgba(255, 0, 255, 0.8);
     --fdroid-repo-txt: rgba(71, 255, 96, 0.8);
+    --blog-txt: rgba(0, 255, 255);
+  --luma-store-txt: rgba(0, 255, 0, 0.8);
   }
 }
 
@@ -71,6 +77,8 @@ html.light {
   --geoweather-next-txt: rgba(0, 157, 255, 0.8);
   --dashboard-txt: rgba(255, 255, 0, 0.8);
   --fdroid-repo-txt: rgba(96, 255, 71, 0.8);
+  --blog-txt: rgba(0, 255, 0, 0.8);
+  --luma-store-txt: rgba(255, 0, 255, 0.8);
 }
 
 @theme inline {
@@ -86,6 +94,8 @@ html.light {
   --color-geoweather-next-txt: var(--geoweather-next-txt);
   --color-dashboard-txt: var(--dashboard-txt);
   --color-fdroid-repo-txt: var(--fdroid-repo-txt);
+  --color-blog-txt: var(--blog-txt);
+  --color-luma-store-txt: var(--luma-store-txt);
 }
 
 body {

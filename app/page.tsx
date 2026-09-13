@@ -188,19 +188,29 @@ export default function HomePage() {
               Donate to me.
             </h2>
           </a>
-          <a className="text-geoweather-next-txt no-underline" href="https://geoweather-next.free-time.me" title="Look at the Weather anywhere in the Web without needing the App.">
+          <a className="text-geoweather-next-txt no-underline" href="https://geoweather-next.free-time.me" title="Look at the Weather anywhere in the Web without needing the App." target="_blank">
             <h2>
               Look at the Weather anywhere in the Web without needing the App.
             </h2>
           </a>
-          <a className="text-dashboard-txt no-underline" href="https://dashboard.free-time.me" title="Go to the Dashboard to control everything.">
+          <a className="text-dashboard-txt no-underline" href="https://dashboard.free-time.me" title="Go to the Dashboard to control everything." target="_blank">
             <h2>
               Go to the Dashboard to control everything.
             </h2>
           </a>
-          <a className="text-fdroid-repo-txt no-underline" href="https://fdroid.free-time.me" title="Visit my own F-Droid Repository.">
+          <a className="text-fdroid-repo-txt no-underline" href="https://fdroid.free-time.me" title="Visit my own F-Droid Repository." target="_blank">
             <h2>
                 Visit my own F-Droid Repository.
+            </h2>
+          </a>
+          <a className="text-blog-txt no-underline" href="https://blog.free-time.me" title="Visit and read my Blogs." target="_blank">
+            <h2>
+                Visit and read my Blogs.
+            </h2>
+          </a>
+          <a className="text-luma-store-txt no-underline" href="https://luma.free-time.me" title="Submit your own Android App to Luma Store." target="_blank">
+            <h2>
+                Submit your own Android App to Luma Store.
             </h2>
           </a>
         </div>
